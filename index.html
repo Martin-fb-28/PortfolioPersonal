@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Martín Freire Bao | Portfolio</title>
+  <meta name="description" content="Portfolio de Martín Freire Bao, estudiante de Desarrollo de Aplicaciones Multiplataforma.">
+
+  <!-- Tipografías de Google Fonts (si no cargan, se usa una fuente del sistema) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- MENÚ -->
+  <header class="menu">
+    <nav>
+      <a href="#inicio" class="menu-logo">Martín Freire</a>
+      <ul>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#estudios">Estudios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- PRESENTACIÓN -->
+    <section class="hero" id="inicio">
+      <div class="contenedor hero-contenido">
+        <img class="foto" src="img/foto.jpg" alt="Foto de Martín Freire Bao">
+
+        <div class="hero-texto">
+          <h1>Martín Freire Bao</h1>
+          <p class="cargo">Estudiante de Desarrollo de Aplicaciones Multiplataforma</p>
+          <p class="presentacion">
+            Estudiante de segundo año con buena base en programación orientada a objetos (Java).
+            Me interesa el desarrollo de software y la administración de sistemas.
+          </p>
+
+          <div class="botones">
+            <a class="boton boton-principal" href="cv/CV-Martin-Freire-Bao.pdf" download>Descargar CV</a>
+            <a class="boton" href="https://www.linkedin.com/in/martin-freire-bao" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="boton" href="https://github.com/Martin-fb-28" target="_blank" rel="noopener">GitHub</a>
+            <a class="boton" href="mailto:martinfbao@gmail.com">Correo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="seccion" id="proyectos">
+      <div class="contenedor">
+        <h2>Proyectos</h2>
+        <p class="intro">Mi proyecto más reciente. El enlace lleva al código en GitHub.</p>
+
+        <article class="proyecto">
+          <div class="proyecto-principal">
+            <div class="vista">
+              <img src="img/abyss-logo.png" alt="Logo de Abyss">
+            </div>
+
+            <div class="proyecto-cuerpo">
+              <h3>Abyss: tienda de ropa online</h3>
+              <span class="estado-proyecto">En desarrollo</span>
+              <p>
+                Aplicación de comercio electrónico de moda con catálogo de productos,
+                página de cada producto y carrito de compra. Todavía la estoy desarrollando.
+              </p>
+              <ul class="etiquetas">
+                <li>React Native</li>
+                <li>Expo</li>
+                <li>TypeScript</li>
+              </ul>
+              <a class="boton boton-principal" href="https://github.com/Martin-fb-28/EcommerceAbyss" target="_blank" rel="noopener">Ver proyecto en GitHub</a>
+            </div>
+          </div>
+
+          <div class="galeria">
+            <img src="img/abyss-producto1.jpg" alt="Producto del catálogo de Abyss: zapatillas verdes" loading="lazy">
+            <img src="img/abyss-producto2.jpg" alt="Producto del catálogo de Abyss: abrigo" loading="lazy">
+            <img src="img/abyss-producto3.jpg" alt="Producto del catálogo de Abyss: sudadera azul" loading="lazy">
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA LABORAL -->
+    <section class="seccion seccion-gris" id="experiencia">
+      <div class="contenedor">
+        <h2>Experiencia laboral</h2>
+        <div class="caja">
+          <p>
+            Todavía no tengo experiencia laboral en el sector y estoy buscando
+            mi primera oportunidad para aprender y crecer como desarrollador.
+          </p>
+          <p>Tengo disponibilidad para viajar.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ESTUDIOS -->
+    <section class="seccion" id="estudios">
+      <div class="contenedor">
+        <h2>Estudios</h2>
+
+        <div class="estudios">
+          <article class="estudio">
+            <span class="estado">En curso</span>
+            <h3>Grado Superior en Desarrollo de Aplicaciones Multiplataforma</h3>
+            <p>CIFP LiceoLaPaz</p>
+          </article>
+
+          <article class="estudio">
+            <span class="estado">2024 - 2025</span>
+            <h3>Curso de IA (Elements of AI)</h3>
+            <p>Conocimientos avanzados sobre inteligencia artificial.</p>
+          </article>
+
+          <article class="estudio">
+            <span class="estado">2023 - 2024</span>
+            <h3>Titulación B2 de inglés (Trinity)</h3>
+            <p>Nivel intermedio de inglés.</p>
+          </article>
+        </div>
+
+        <div class="detalles">
+          <div>
+            <h3>Idiomas</h3>
+            <ul class="lista">
+              <li><strong>Español:</strong> nativo</li>
+              <li><strong>Inglés:</strong> nivel alto</li>
+              <li><strong>Gallego:</strong> Celga 4</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Lenguajes</h3>
+            <div class="nivel">
+              <span>Java</span>
+              <div class="barra"><div style="width: 40%"></div></div>
+            </div>
+            <div class="nivel">
+              <span>SQL</span>
+              <div class="barra"><div style="width: 22%"></div></div>
+            </div>
+            <div class="nivel">
+              <span>Python</span>
+              <div class="barra"><div style="width: 15%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CONTACTO -->
+  <footer class="contacto" id="contacto">
+    <div class="contenedor">
+      <h2>Contacto</h2>
+      <p>¿Hablamos? Puedes escribirme o encontrarme en estos sitios.</p>
+      <div class="botones botones-centro">
+        <a class="boton" href="mailto:martinfbao@gmail.com">martinfbao@gmail.com</a>
+        <a class="boton" href="https://www.linkedin.com/in/martin-freire-bao" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="boton" href="https://github.com/Martin-fb-28" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <p class="copyright">© 2026 Martín Freire Bao</p>
+    </div>
+  </footer>
+
+</body>
+</html>
